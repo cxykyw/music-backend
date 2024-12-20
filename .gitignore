@@ -1,0 +1,62 @@
++ ### Java ###
++ *.class
++ *.log
++ *.jar
++ *.war
++ *.nar
++ *.ear
++ *.zip
++ *.tar.gz
++ *.rar
++ hs_err_pid*
++ replay_pid*
++ 
++ ### Maven ###
++ target/
++ pom.xml.tag
++ pom.xml.releaseBackup
++ pom.xml.versionsBackup
++ pom.xml.next
++ release.properties
++ dependency-reduced-pom.xml
++ buildNumber.properties
++ .mvn/timing.properties
++ .mvn/wrapper/maven-wrapper.jar
++ 
++ ### Spring Boot ###
++ application-*.yml
++ !application-example.yml
++ 
++ ### IDE ###
++ ### IntelliJ IDEA ###
++ .idea/
++ *.iws
++ *.iml
++ *.ipr
++ out/
++ 
++ ### VS Code ###
++ .vscode/
++ 
++ ### Eclipse ###
++ .classpath
++ .project
++ .settings/
++ .metadata/
++ bin/
++ tmp/
++ 
++ ### Project Specific ###
++ # 上传文件目录
++ uploads/
++ 
++ # 日志文件
++ logs/
++ 
++ # 本地配置文件
++ application-local.yml
++ application-dev.yml
++ 
++ # 系统文件
++ .DS_Store
++ Thumbs.db 
